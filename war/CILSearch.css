@@ -1,0 +1,233 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+body {
+	line-height: 1.5em
+}
+
+
+/** Main DIV containing our application controls */
+#siteContent {
+	margin: 0 auto;
+	width: 800px;
+}
+
+/** HPanel to select search type */
+.selectSearchPanel {
+	padding: 0 200px 10px 200px;
+	width: 400px;
+}
+
+/** Style buttons to look like links */
+.selectSearchPanel button {
+	background: white;
+	border: none;
+	color: SteelBlue;
+	text-decoration: none;
+	width: 200px;
+	text-align: center;
+}
+
+/** Buttons underline on hover */
+.selectSearchPanel button:hover {
+	text-decoration: underline;
+}
+
+/** Contains search box and button */
+.searchPanel {
+	padding: 0 200px 10px 200px;
+	width: 400px;
+}
+
+/** For formatting the extended panel */
+.extendedSearchPanel .gwt-Label {
+	color: #777;
+	font-weight: bold;
+	padding-left: 1px;
+	font-size: 90%;
+	padding-top: 3px;
+}
+
+.extendedSearchPanel input {
+	width: 400px;
+}
+
+.extendedSearchPanel .toogleField {
+	width: 310px;
+}
+
+.extendedSearchPanel .gwt-ToggleButton {
+	width: 80px;
+	margin: 4px 0 0 10px;
+	background: white;
+	border: none;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: right;
+	font-size: 85%;
+	color: #777;
+	font-weight: bold;
+}
+
+.extendedSearchPanel .durationField {
+	width: 80px;
+}
+
+.extendedSearchPanel .durationList {
+	width: 80px;
+	margin: 7px 0 0 10px;
+}
+
+.extendedSearchPanel .searchButton {
+	width: 170px;
+	margin-left: 60px;
+	height: 30px;
+}
+
+/** Our start search button */
+.searchButton {
+	margin: 2px 0 2px 5px;
+	width: 95px;
+}
+
+/** Our search box */
+.searchBox {
+	width: 300px;
+}
+
+/** Label showing time for search request */
+.resultLabel {
+	color: #777;
+	width: 400px;
+	padding: 0 200px 20px 200px;
+	text-align: center;
+}
+
+.attachment {
+	padding-left: 3px;
+	margin-bottom: -3px;
+}
+
+/** Main panel of our detailed message view dialog */
+.dialogPanel {
+	width: 600px;
+	padding: 5px;
+}
+
+/** Panel containing the header of the mail message dialog */
+.headerPanel {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #555;
+	width: 100%;
+	display: block;
+}
+
+/** Used for the labels in our message detail dialog */
+.descLabel {
+	display: block;
+	width: 70px;
+	font-weight: bold;
+	color: #555;
+	font-size: 90%;
+}
+
+.loadTimeLabel {
+	color: #777;
+	padding-top: 15px;
+	width: 550px;
+	font-size: 90%;
+}
+
+/** Button to close our detail message dialog */
+.closeDialogButton {
+	margin-top: 10px;
+}
+
+/** The controls in our footer */
+#footerControls {
+	float: right;
+	padding-top: 35px;
+}
+
+#footerControls button {
+	height: 20px;
+	padding: 0 5px;
+	font-size: 0.9em;
+	color: SteelBlue;
+	border: none;
+	background: white;
+	text-decoration: none;
+}
+
+#footerControls button:hover {
+	text-decoration: underline;
+}
+
+
+/** Our footer line */
+#footer {
+	border-top: 1px solid #555;
+	margin-top: 30px;
+	padding-top: 5px;
+	font-size: 0.9em;
+	color: #555;
+	width: 100%;
+	display: block;
+}
+
+/** Format our MailPreviewWidget */
+.cil-mail-preview {
+	width: 400px;
+	margin: -4px 190px 0 190px;
+	padding: 8px 10px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.cil-mail-preview:hover {
+	background-color: #f8f8ff;
+}
+
+.cil-mail-preview-last {
+	border-bottom: 0;
+}
+
+.cil-mail-date {
+	float: right;
+	color: #00a;
+	display: block;
+	widht: 100px;
+	text-align: right;
+}
+
+.cil-mail-from {
+	font-weight: bold;
+	display: block;
+	width: 300px;
+}
+
+.cil-mail-subject {
+	display: block;
+	width: 100%;
+}
+
+.cil-mail-teaser {
+	color: #777;
+	display: block;
+	width: 100%;
+	font-size: 90%;
+}

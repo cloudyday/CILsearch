@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>mailSearchServlet</servlet-name>
+    <servlet-class>de.cil2012.cilsearch.server.MailSearchServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>mailSearchServlet</servlet-name>
+    <url-pattern>/cilsearch/search</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>mailDisplayServlet</servlet-name>
+    <servlet-class>de.cil2012.cilsearch.server.MailDisplayServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>mailDisplayServlet</servlet-name>
+    <url-pattern>/cilsearch/display</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>updateIndexServlet</servlet-name>
+    <servlet-class>de.cil2012.cilsearch.server.UpdateIndexServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>updateIndexServlet</servlet-name>
+    <url-pattern>/cilsearch/updateIndex</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>attachmentDownloadServlet</servlet-name>
+    <servlet-class>de.cil2012.cilsearch.server.AttachmentDownloadServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>attachmentDownloadServlet</servlet-name>
+    <url-pattern>/cilsearch/download</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>CILSearch.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>
