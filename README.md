@@ -17,7 +17,7 @@ We only uploaded the source code without any dependencies. You can basically clo
 ### Dependencies ###
 
 Those go into the /war/lib directory of the project:    
-GWT SDK (gwt-servlet.jar) 
+GWT SDK (gwt-servlet.jar)   
 AWS Java SDK and dependencies   
 Jersey (JAX-RS)   
 JavaMail (and dependencies)   
