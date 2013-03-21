@@ -16,38 +16,38 @@ We only uploaded the source code without any dependencies. You can basically clo
 
 ### Dependencies ###
 
-Those go into the root directory of the project:
-GWT SDK
-AWS Java SDK and dependencies
-Jersey (JAX-RS)
-JavaMail (and dependencies)
-Guava GWT
-ElasticSearch Java API (with lucene dependency)
-PDFBox
-POI
+Those go into the root directory of the project:    
+GWT SDK   
+AWS Java SDK and dependencies   
+Jersey (JAX-RS)   
+JavaMail (and dependencies)   
+Guava GWT   
+ElasticSearch Java API (with lucene dependency)   
+PDFBox   
+POI   
 
-These go to the lib directory:
-/lib/gwt-dev.jar
-/lib/gwt-user.jar
-/lib/validation-api-1.0.0.GA.jar
-/lib/validation-api-1.0.0.GA-sources.jar
+These go to the lib directory:   
+/lib/gwt-dev.jar   
+/lib/gwt-user.jar   
+/lib/validation-api-1.0.0.GA.jar   
+/lib/validation-api-1.0.0.GA-sources.jar   
 
 
 ### Further settings ###
 
-GlobalPropertyStore.java: here you set the current search engine provider (default: CloudSearch)
-AutoCloudSearchInstance.java: this file helps you set up a AWS CloudSearch domain. you need to set your awsAccountId here
+GlobalPropertyStore.java: here you set the current search engine provider (default: CloudSearch)   
+AutoCloudSearchInstance.java: this file helps you set up a AWS CloudSearch domain. you need to set your awsAccountId here   
 
-AwsCredentials.properties: AWS Credentials
-AwsData.properties: AWS CloudSearch domain data
-ESData.properties: ElasticSearch cluster data
-IMAPAccountCredentials.properties: IMAP Account data
+AwsCredentials.properties: AWS Credentials   
+AwsData.properties: AWS CloudSearch domain data   
+ESData.properties: ElasticSearch cluster data   
+IMAPAccountCredentials.properties: IMAP Account data   
 
 
 Read this, too
 --------------
 We would like to thank Hans-Joerg Happel and Thomas King from audriga GmbH for their support and guidance while working on this project.
- 
+
 
 License
 -------
